@@ -1,0 +1,142 @@
+.home__banner {
+    min-height: 600px;
+    background: linear-gradient(rgba(44, 43, 43, 0.635), rgba(0, 0, 0, 0.422)), url(../../assets/images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner__infos {
+    padding: 16rem 0 3rem 9rem;
+}
+
+.banner__infos h2 {
+    display: block;
+    max-width: 450px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.banner__infos h2 span {
+    color: rgb(255, 106, 0);
+}
+
+.banner__infos h4 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.banner__infos button {
+    background-color: rgb(255, 106, 0);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    padding: .4rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.banner__infos button:hover {
+    background-color: rgb(255, 179, 0);
+}
+
+/*========================= BREAKPOINTS =======================*/
+
+/* Pour écran large */
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1100px) {
+    .banner__infos {
+        padding: 16rem 0 3rem 6rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .banner__infos {
+        padding: 16rem 0 3rem 4rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .banner__infos h2 {
+        max-width: 300px;
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .home__banner {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home__banner {
+        min-height: 400px;
+    }
+
+    .banner__infos {
+        padding-top: 9rem;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .banner__infos h2 {
+        max-width: 300px;
+        font-size: 2rem;
+    }
+
+    .banner__infos h4 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner__infos {
+        padding: 9rem 0 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .banner__infos {
+        padding: 9rem 1rem 3rem 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .banner__infos h2 {
+        max-width: 250px;
+        font-size: 1.5rem;
+    }
+
+    .banner__infos h4 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .banner__infos h2 {
+        max-width: 250px;
+        font-size: 1rem;
+    }
+
+    .banner__infos h4 {
+        font-size: .8rem;
+    }
+
+    .banner__infos button {
+        font-size: .6rem;
+    }
+}

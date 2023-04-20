@@ -1,0 +1,259 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 0 9rem 0 8rem;
+    background: linear-gradient(rgba(36, 35, 35, 0.818), rgba(16, 16, 16, 0.76));
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav__logo {
+    padding: .8rem;
+}
+
+.nav__logo img {
+    width: 200px;
+}
+
+.nav__menu {
+    padding: .2rem .2rem .1rem .2rem;
+    margin-top: 1rem;
+    display: none;
+}
+
+.nav__menu .bx {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.close {
+    display: none;
+}
+
+.ul__links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.ul__links li {
+    padding-top: 1.4rem;
+    color: white;
+    font-size: .8rem;
+    transition: .4s ease;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.ul__links li .bx {
+    color: white;
+    font-size: 1rem;
+}
+
+.ul__links li:hover {
+    color: rgb(255, 140, 0);
+}
+
+.ul__links .login {
+    background: white;
+    color: black;
+    border-radius: .2rem;
+    padding: .1rem .3rem;
+    margin-top: 1.5rem;
+    transition: .4s ease;
+}
+
+.ul__links .login:hover {
+    background-color: rgb(255, 106, 0);
+    color: white;
+}
+
+/*========================= BREAKPOINTS =======================*/
+
+/* Pour écran large */
+@media screen and (max-width: 1300px) {
+    .ul__links {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ul__links {
+        gap: .7rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    nav {
+        padding: 0 6rem 0 5rem;
+    }
+
+    .ul__links {
+        gap: .8rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        padding: 0 4rem 0 3rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .ul__links li {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .nav__menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 3rem;
+    }
+
+    .close {
+        display: inline-block;
+        color: white;
+        font-size: 1rem;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .ul__links {
+        display: inline-block;
+        width: 100%;
+        position: fixed;
+        background-color: #333;
+        z-index: 2;
+        transform: translateX(-100%);
+        transition: all .4s;
+        padding: 2rem 4rem;
+        left: 0;
+    }
+
+    .ul__links li {
+        font-size: 1rem;
+    }
+
+    .ul__links .login {
+        display: inline-block;
+    }
+
+    .ul__links__open {
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        padding: 0 2rem 0 1rem;
+    }
+
+    .nav__menu {
+        right: 1rem;
+    }
+
+    .ul__links {
+        padding: 2rem 1rem;
+    }
+
+    .ul__links li {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav__logo img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    nav {
+        padding: 0 .5rem 0 .2rem;
+    }
+
+    .nav__menu .bx {
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .nav__menu {
+        right: .5rem;
+    }
+
+    .ul__links {
+        padding: 2rem 1rem;
+    }
+
+    .ul__links li {
+        font-size: .8rem;
+    }
+
+    .ul__links li .bx {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .nav__logo img {
+        width: 100px;
+    }
+
+    .nav__menu {
+        top: -.4rem;
+    }
+
+    .nav__menu .bx {
+        font-size: 1.3rem;
+    }
+
+    .ul__links li {
+        font-size: .7rem;
+    }
+
+    .ul__links li .bx {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .nav__logo img {
+        width: 80px;
+    }
+
+    .nav__menu {
+        right: .5rem;
+    }
+
+    .ul__links li {
+        font-size: .6rem;
+    }
+
+    .ul__links li .bx {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width: 150px) {
+    .nav__logo img {
+        width: 78px;
+    }
+
+    .ul__links li {
+        font-size: .5rem;
+    }
+
+    .ul__links li .bx {
+        font-size: .5rem;
+    }
+}

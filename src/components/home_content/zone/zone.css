@@ -1,0 +1,260 @@
+.zone {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.zone__carte {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+}
+
+.zone__carte h2 {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 2rem;
+    top: 6rem;
+    left: 9rem;
+    color: rgb(15, 14, 13);
+    z-index: 100;
+}
+
+.zone__carte h2 span {
+    color: orange;
+}
+
+.carte__left {
+    background-color: rgb(255, 94, 0);
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    position: relative;
+}
+
+.carte__left img {
+    width: 160%;
+    height: 94%;
+    position: absolute;
+}
+
+.carte__right {
+    background-color: #333;
+    width: 50%;
+    height: 100%;
+}
+
+.zone__city {
+    padding: 6rem 9rem 0 0;
+    background-color: #333;
+    width: 50%;
+    height: 500px;
+}
+
+.zone__city h2 {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: right;
+}
+
+.zone__city h2 span {
+    color: orange;
+}
+
+.zone__city h5 {
+    margin-top: 1rem;
+    color: white;
+    text-align: right;
+    font-size: .7rem;
+}
+
+.zone__cities {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+    margin-top: 2rem;
+    justify-content: right;
+}
+
+.zone__li {
+    text-align: right;
+}
+
+.zone__li h4 {
+    color: white;
+    font-size: .9rem;
+    margin-bottom: .2rem;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.zone__li h4 .bx {
+    color: orange;
+    font-size: 1.3rem;
+    position: absolute;
+}
+
+/*========================= BREAKPOINTS =======================*/
+/* Pour écran large */
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1100px) {
+
+    .zone__carte h2 {
+        left: 6rem;
+    }
+
+    .zone__city {
+        padding: 6rem 6rem 0 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .zone__carte h2 {
+        left: 4rem;
+    }
+
+    .zone__city {
+        padding: 6rem 4rem 0 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .zone__carte h2 {
+        font-size: 1.5rem;
+    }
+
+    .zone__city h2 {
+        font-size: 1.5rem;
+    }
+
+    .zone__li h4 {
+        font-size: .8rem;
+    }
+
+    .zone__li h4 .bx {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .zone {
+        display: block;
+        width: 100%;
+    }
+
+    .zone__carte {
+        width: 100%;
+        height: 400px;
+    }
+
+    .carte__left {
+        height: 100%;
+    }
+
+    .carte__left img {
+        width: 110%;
+        height: 93%;
+    }
+
+    .zone__city {
+        padding: 6rem 4rem 0 4rem;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .zone__city {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .zone__carte h2 {
+        left: 2rem;
+    }
+
+    .zone__city {
+        padding: 6rem 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .carte__left img {
+        width: 160%;
+    }
+
+    .zone__city {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .zone__carte h2 {
+        left: 1rem;
+    }
+
+    .zone__city {
+        padding: 6rem 1rem 0 1rem;
+    }
+
+    .carte__left img {
+        width: 170%;
+    }
+
+    .zone__city {
+        height: 550px;
+    }
+
+    .zone__carte h2 {
+        font-size: 1rem;
+    }
+
+    .zone__city h2 {
+        font-size: 1rem;
+    }
+
+    .zone__li h4 {
+        font-size: .7rem;
+    }
+
+    .zone__li h4 .bx {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .zone__city {
+        height: 570px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .zone__city {
+        height: 620px;
+    }
+
+    .zone__cities {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .zone__carte {
+        display: none;
+    }
+
+    .zone__city {
+        height: 740px;
+    }
+}

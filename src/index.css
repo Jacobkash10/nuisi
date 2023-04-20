@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../src/assets/fonts/Poppins-Light.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-align: center;
+  color: rgb(255, 106, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*========================= BREAKPOINTS =======================*/
+@media screen and (max-width: 950px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .subtitle {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .title {
+    font-size: .9rem;
+  }
+
+  .subtitle {
+    font-size: .7rem;
+  }
+}

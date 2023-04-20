@@ -1,0 +1,501 @@
+.offre {
+    background-color: white;
+}
+
+.offre__top {
+    display: grid;
+    grid-template-columns: 59% 40%;
+    column-gap: 1%;
+    margin-bottom: 1rem;
+}
+
+.left__col {
+    width: 100%;
+    min-height: 500px;
+    background: linear-gradient(rgba(44, 43, 43, 0.635), rgba(0, 0, 0, 0.422)), url(../../../assets/images/exterminateur-punaises.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.left__col .content {
+    margin: 8rem 0 0 9rem;
+}
+
+.left__col .content h5 {
+    display: inline;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.left__col .content h3 {
+    max-width: 250px;
+    line-height: 1.1;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.left__col .content h3 strong {
+    color: orange;
+}
+
+.left__col .content p {
+    max-width: 400px;
+    line-height: 1.1;
+    color: white;
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+.left__col .content button {
+    background: transparent;
+    border: .1px solid white;
+    outline: none;
+    padding: .3rem;
+    margin-top: 1.5rem;
+}
+
+.left__col .content button a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.right__col {
+    width: 100%;
+}
+
+.right__top {
+    width: 100%;
+    min-height: 250px;
+    background: linear-gradient(rgba(204, 81, 19, 0.812), rgba(141, 54, 16, 0.738)), url(../../../assets/images/cafard2.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+.right__top .content h5 {
+    display: inline;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.right__top .content h3 {
+    max-width: 160px;
+    line-height: 1;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.right__top .content h3 span {
+    font-size: .9rem;
+    margin-left: 3.6rem;
+}
+
+.right__top .content p {
+    max-width: 400px;
+    line-height: 1.1;
+    color: white;
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+.right__top .content button {
+    background: transparent;
+    border: .1px solid white;
+    outline: none;
+    padding: .3rem;
+    margin-top: 1.5rem;
+}
+
+.right__top .content button a {
+    text-transform: uppercase;
+    color: white;
+}
+
+.right__bottom {
+    width: 100%;
+    min-height: 250px;
+    background: linear-gradient(rgba(204, 81, 19, 0.812), rgba(141, 54, 16, 0.738)), url(../../../assets/images/moustique2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.right__bottom .content h5 {
+    display: inline;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.right__bottom .content h3 {
+    max-width: 160px;
+    line-height: 1.1;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.right__bottom .content h3 span {
+    font-size: .9rem;
+    margin-left: 3.6rem;
+}
+
+.right__bottom .content p {
+    max-width: 400px;
+    line-height: 1.1;
+    color: white;
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+.right__bottom .content button {
+    background: transparent;
+    border: .1px solid white;
+    outline: none;
+    padding: .3rem;
+    margin-top: 1.5rem;
+}
+
+.right__bottom .content button a {
+    text-transform: uppercase;
+    color: white;
+}
+
+.offre__bottom {
+    width: 100%;
+    min-height: 250px;
+    background: linear-gradient(23deg, rgba(0, 0, 0, 0.8799894957983193) 26%, rgba(177, 66, 11, 0.902) 92%, rgba(175, 113, 49, 1) 99%, rgb(210, 131, 33) 100%), url(../../../assets/images/exterminateur.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 2rem;
+}
+
+.offre__bottom .content {
+    text-align: center;
+}
+
+.offre__bottom .content h5 {
+    display: inline;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.offre__bottom .content h3 {
+    line-height: 1.1;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.offre__bottom .content h3 strong {
+    color: orange;
+}
+
+.offre__bottom .content p {
+    line-height: 1.1;
+    color: white;
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+.offre__bottom .content button {
+    background: transparent;
+    border: .1px solid white;
+    outline: none;
+    padding: .3rem;
+    margin-top: 1.5rem;
+}
+
+.offre__bottom .content button a {
+    text-transform: uppercase;
+    color: white;
+}
+
+/*========================= BREAKPOINTS =======================*/
+/* Pour écran large */
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1100px) {
+    .left__col .content {
+        margin: 8rem 0 0 6rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .left__col .content {
+        margin: 8rem 0 0 4rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .left__col {
+        min-height: 400px;
+    }
+
+    .left__col .content h5 {
+        font-size: 1.1rem;
+    }
+
+    .left__col .content h3 {
+        max-width: 250px;
+        font-size: 1.6rem;
+    }
+
+    .right__top {
+        min-height: 200px;
+    }
+
+    .right__top .content h5 {
+        font-size: 1.1rem;
+    }
+
+    .right__top .content h3 {
+        max-width: 160px;
+        font-size: 1.6rem;
+    }
+
+    .right__bottom {
+        min-height: 200px;
+    }
+
+    .right__bottom .content h5 {
+        font-size: 1.1rem;
+    }
+
+    .right__bottom .content h3 {
+        max-width: 160px;
+        font-size: 1.6rem;
+    }
+
+    .offre__bottom {
+        min-height: 180px;
+    }
+
+    .offre__bottom .content h5 {
+        font-size: 1.1rem;
+    }
+
+    .offre__bottom .content h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .offre__top {
+        margin-bottom: .5rem;
+    }
+
+    .left__col {
+        min-height: 300px;
+    }
+
+    .left__col .content h5 {
+        font-size: .9rem;
+    }
+
+    .left__col .content h3 {
+        max-width: 250px;
+        font-size: 1.4rem;
+    }
+
+    .right__top {
+        min-height: 150px;
+        margin-bottom: .5rem;
+    }
+
+    .right__top .content h5 {
+        font-size: .9rem;
+    }
+
+    .right__top .content h3 {
+        max-width: 140px;
+        font-size: 1.4rem;
+    }
+
+    .right__bottom {
+        min-height: 150px;
+    }
+
+    .right__bottom .content h5 {
+        font-size: .9rem;
+    }
+
+    .right__bottom .content h3 {
+        max-width: 140px;
+        font-size: 1.4rem;
+    }
+
+    .offre__bottom {
+        min-height: 150px;
+    }
+
+    .offre__bottom .content h5 {
+        font-size: .9rem;
+    }
+
+    .offre__bottom .content h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .offre__top {
+        display: block;
+        width: 100%;
+    }
+
+    .left__col {
+        margin-bottom: .5rem;
+        padding-top: 2rem;
+    }
+
+    .left__col .content {
+        margin: 0 0 0 4rem;
+    }
+
+    .right__top {
+        padding: 2rem 4rem 2rem 4rem;
+    }
+
+    .right__top .content h3 {
+        max-width: max-content;
+    }
+
+    .right__bottom {
+        padding: 2rem 4rem 2rem 4rem;
+    }
+
+    .right__bottom .content h3 {
+        max-width: max-content;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .left__col .content {
+        margin: 0 0 0 2rem;
+    }
+
+    .right__top {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .right__bottom {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .offre__bottom .content h3 {
+        font-size: 1rem;
+    }
+
+    .left__col .content button {
+        font-size: .8rem;
+    }
+
+    .right__top .content button {
+        font-size: .8rem;
+    }
+
+    .right__bottom .content button {
+        font-size: .8rem;
+    }
+
+    .offre__bottom .content button {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .left__col .content {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .right__top {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .right__bottom {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .left__col .content button {
+        font-size: .6rem;
+    }
+
+    .right__top .content button {
+        font-size: .6rem;
+    }
+
+    .right__bottom .content button {
+        font-size: .6rem;
+    }
+
+    .offre__bottom .content button {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .left__col {
+        min-height: 350px;
+    }
+
+    .left__col .content h5 {
+        font-size: .7rem;
+    }
+
+    .left__col .content h3 {
+        max-width: 250px;
+        font-size: 1rem;
+    }
+
+    .right__top .content h5 {
+        font-size: .7rem;
+    }
+
+    .right__top .content h3 {
+        max-width: 140px;
+        font-size: 1rem;
+    }
+
+    .right__bottom .content h5 {
+        font-size: .7rem;
+    }
+
+    .right__bottom .content h3 {
+        max-width: 140px;
+        font-size: 1rem;
+    }
+
+    .offre__bottom .content h5 {
+        font-size: .7rem;
+    }
+
+    .offre__bottom .content h3 {
+        font-size: 1rem;
+    }
+}

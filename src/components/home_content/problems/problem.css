@@ -1,0 +1,128 @@
+.problem {
+    padding: 3rem 9rem 5rem 9rem;
+    background: white;
+    text-transform: uppercase;
+}
+
+.problem__cards {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.problem__card {
+    width: 33%;
+    transition: .4s ease;
+}
+
+.card__img {
+    width: 100%;
+    height: 130px;
+}
+
+.card__img .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .4rem .4rem 0 0;
+}
+
+.problem__card:hover {
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+}
+
+.card__name {
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+    padding: .3rem .3rem;
+    color: white;
+    border-radius: 0 0 .4rem .4rem;
+}
+
+/*========================= BREAKPOINTS =======================*/
+
+/* Pour écran large */
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1100px) {
+    .problem {
+        padding: 3rem 6rem 5rem 6rem;
+    }
+
+    .problem__cards {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .problem {
+        padding: 3rem 4rem 5rem 4rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .problem__cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 13px;
+        grid-row-gap: 13px;
+    }
+
+    .problem__card {
+        width: 100%;
+    }
+
+    .card__name {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 800px) {}
+
+@media screen and (max-width: 500px) {
+    .problem__cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 13px;
+        grid-row-gap: 13px;
+    }
+
+    .card__img {
+        width: 100%;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .problem {
+        padding: 3rem 2rem 5rem 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .problem {
+        padding: 3rem 1rem 5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .card__name {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .card__name {
+        font-size: .6rem;
+    }
+}
